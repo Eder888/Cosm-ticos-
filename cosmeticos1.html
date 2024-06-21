@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Cosméticos</title>
+    <style>
+        body {
+            background-color: orange;
+            text-align: center;
+        }
+        button {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a nuestra tienda de cosméticos</h1>
+<img src="principal.JPEG"
+alt="Escritorio"/>
+    <p>¡Explora nuestra amplia gama de productos!</p>
+    
+    <a href=" http://localhost:8080/informaci%C3%B3n.html" target="_blank"><button>INFORMACION</button></a>
+    <a href="file:///storage/emulated/0/nt/PAGINASWEB/Nueva%20carpeta/Paginas%20web.1/cosmeticos/catalago.html" target="_blank"><button>CATALOGO</button></a> 
+    
+    <a  href="file:///storage/emulated/0/nt/PAGINASWEB/Nueva%20carpeta/Paginas%20web.1/cosmeticos/redes%20sociales.html"
+    target="_blank"><button>REDES SOCIALES</button></a>
+   <a href="file:///storage/emulated/0/nt/PAGINASWEB/Nueva%20carpeta/Paginas%20web.1/cosmeticos/promocion1.html"target="_blank">
+    <button>PROMOCIÓNES </button></a>
+
+    
+    <script>
+        function mostrarINFORMES() {
+            
+            
+            }
+        function mostrarCATÁLOGO() {
+            document.getElementById('resultado').innerHTML = 'Crema corporal';
+        }
+        
+        function mostrarREDES_SOCIALES() {
+            document.getElementById('resultado').innerHTML = 'Mostrando Redes Sociales';
+        }
+        
+        function mostrarPROMOCIONES() {
+            document.getElementById('resultado').innerHTML = 'Mostrando Promociones';
+        }
+        
+        function regresarMenu() {
+            document.getElementById('resultado').innerHTML = '';
+        }
+    </script>
+</body>
+</html>
